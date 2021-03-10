@@ -1,0 +1,22 @@
+@import "../../bootstrap/scss/bootstrap";
+
+$theme-colors: (
+  "primary":    $indigo-500,
+  "secondary":  $purple-200,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+body {
+	background-color: $indigo-900;
+	color: $white;
+	font: 1rem/1.5 var(--bs-font-monospace);
+}
+
+main {
+	text-align: center;
+}
